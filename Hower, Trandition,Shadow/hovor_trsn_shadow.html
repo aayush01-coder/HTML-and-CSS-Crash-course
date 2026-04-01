@@ -1,0 +1,67 @@
+<style>
+  .subscribe-button{
+    background-color: rgb(202, 0, 0);
+    color: azure;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: right 8px ;
+   transition: opacity 0.15s;
+  }
+  .subscribe-button:hover{ 
+     /* psedu class = it added extra style ina certion situation */
+     opacity: 0.8; 
+    /* #  opacity its fade oute out elemnet s  */
+   
+  }
+  .subscribe-button:active{
+    opacity: 0.4;
+  }
+  .join-button{
+    background-color: white;
+    color: rgb(92, 92, 248);
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    height: 30px;
+    width:50px;
+    cursor: pointer;
+    margin-left: 10px;
+
+    
+    transition: background-color 0.15s,color 0.15s;
+  }
+  .join-button:hover {
+    background-color:rgb(41, 118, 211);;
+    color: white;
+  }
+  .join-button:active{
+    opacity: .7;
+  }
+  .twitter-button{
+
+    background-color: rgb(98, 98, 223);
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+  transition:box-shadow 0.15;
+  }
+  .twitter-button:hover{
+ box-shadow: 5px 5px 10px rgba(0,0,0, 0.15);
+    /* 1st horisontal, 2nd is down,3rd is bluer*/
+  }
+   
+</style>
+
+
+<button class="subscribe-button">SUBSCRIBE</button>
+<button class="join-button">JOIN</button>
+<button class="twitter-button">Twitter</button>
